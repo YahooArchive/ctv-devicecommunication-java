@@ -1,46 +1,41 @@
-OVERVIEW
-********
+# Overview
 The Yahoo! Connected TV Device Communication Java Library uses several 3rd party open source libraries and tools. This file summarizes the tools used, their purpose, and the licenses under which they are released. This file also explains how to build the jar file and generate Javadoc documentation.
 
-BUILD
-*****
+# Build
 To create a jar for this library use Maven (http://maven.apache.org/). Use the command:
 
-        mvn package
+> mvn deploy
 
-This will download all dependencies and create the jar file "target/device-control-<version>.jar".
+This will download all dependencies and create the jar file "target/device-communcation.jar".
 
-DOCUMENTATION
-*************
+# Documentation
 If you wish to create documentation from the source use this command:
 
-        mvn "javadoc:javadoc"
+> mvn "javadoc:javadoc"
 
 Generated documentation will be created in the doc/ folder. Open the doc/index.html file in your web browser.
 
-LIBRARIES
-*********
+# Libraries
 Except as specifically stated below, the 3rd party software packages are not distributed as part of this project, but instead are separately downloaded from their respective provider and built on the developer's machine prior to building the library.
 
 * JmDNS version 3.4.0 (Apache 2.0 license)
-(A mDNS client library)
-http://jmdns.sourceforge.net/
+* * (A mDNS client library)
+* * http://jmdns.sourceforge.net/
 
 * org.json version 20090211
-(Java JSON Library)
-http://json.org/java/
+* * (Java JSON Library)
+* * http://json.org/java/
 
-For unit tests:
-* Junit version 4.8.2
-(Java testing library)
-http://junit.sourceforge.net/
+* For unit tests:
+* * Junit version 4.8.2
+* * * (Java testing library)
+* * * http://junit.sourceforge.net/
 
-* Hamcrest version 1.3.RC2
-(Java unit test helper library)
-http://code.google.com/p/hamcrest/
+* * Hamcrest version 1.3.RC2
+* * * (Java unit test helper library)
+* * * http://code.google.com/p/hamcrest/
 
-LICENSE
-*******
+# License
 The Yahoo! Connected TV Device Communication Java Library is licensed under the following BSD License.
 
 Software License Agreement (BSD License)

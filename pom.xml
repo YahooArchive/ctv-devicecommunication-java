@@ -6,16 +6,16 @@
                         http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.yahoo.connectedtv</groupId>
-	<artifactId>device-control</artifactId>
-	<name>Yahoo! Connected TV Device Control</name>
-	<version>1001.1.17</version>
+	<artifactId>device-communication</artifactId>
+	<name>Yahoo! Connected TV Device Communication</name>
+	<version>1.1.1</version>
 	<url>http://connectedtv.yahoo.com</url>
 	<inceptionYear>2011</inceptionYear>
 	<developers>
 		<developer>
 			<id>jecortez</id>
 			<name>Jim Cortez</name>
-			<email>tvwidgets@yahoo.com</email>
+			<email>connectedtv@yahoo-inc.com</email>
 			<url>http://connectedtv.yahoo.com</url>
 			<organization>Yahoo!</organization>
 			<organizationUrl>http://yahoo.com</organizationUrl>
@@ -28,7 +28,7 @@
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<testSourceDirectory>tests</testSourceDirectory>
-		<finalName>device-control</finalName>
+		<finalName>device-communication</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -45,7 +45,7 @@
 					<destDir>doc</destDir>
 					<overview>${basedir}/src/overview.html</overview>
 					<author>false</author>
-					<bottom> <![CDATA[Copyright 2011, <a href="
+					<bottom> <![CDATA[Copyright 2012, <a href="
 	http: /
 	www.yahoo.com ">
 	Yahoo!, Inc.
