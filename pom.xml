@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.yahoo.connectedtv</groupId>
+	<artifactId>device-control</artifactId>
+	<name>Yahoo! Connected TV Device Control</name>
+	<version>1001.1.17</version>
+	<url>http://connectedtv.yahoo.com</url>
+	<inceptionYear>2011</inceptionYear>
+	<developers>
+		<developer>
+			<id>jecortez</id>
+			<name>Jim Cortez</name>
+			<email>tvwidgets@yahoo.com</email>
+			<url>http://connectedtv.yahoo.com</url>
+			<organization>Yahoo!</organization>
+			<organizationUrl>http://yahoo.com</organizationUrl>
+			<timezone>(GMT-08:00) Pacific Time(US &amp; Canada)</timezone>
+			<roles>
+				<role></role>
+			</roles>
+		</developer>
+	</developers>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<testSourceDirectory>tests</testSourceDirectory>
+		<finalName>device-control</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+					<reportOutputDirectory>${basedir}</reportOutputDirectory>
+					<destDir>doc</destDir>
+					<overview>${basedir}/src/overview.html</overview>
+					<author>false</author>
+					<bottom> <![CDATA[Copyright 2011, <a href="
+	http: /
+	www.yahoo.com ">
+	Yahoo!, Inc.
+	<a>
+		]]>
+					</bottom>
+					<detectLinks>true</detectLinks>
+					<links>
+						<link>http://download.oracle.com/javase/6/docs/api/</link>
+						<link>http://www.json.org/javadoc/</link>
+					</links>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20090211</version>
+			<optional>false</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>1.3.RC2</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit-dep</artifactId>
+			<version>4.8.2</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.hamcrest</groupId>
+					<artifactId>hamcrest-core</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+</project>

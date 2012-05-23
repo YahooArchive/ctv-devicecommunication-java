@@ -1,0 +1,7 @@
+This example opens a connection, issues a command to navigate right, then closes.
+
+Java:
+compiling:
+javac -cp <path_to_library_jar> SimpleExample
+running:
+java -cp "<path_to_library_jar>:<path_to_org.json.jar>" SimpleExample

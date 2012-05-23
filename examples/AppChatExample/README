@@ -1,0 +1,7 @@
+This example opens a connection, then starts an IM-like dialog with the Chat example.
+
+Java:
+compiling:
+javac -cp <path_to_library_jar> AppChatExample
+running:
+java -cp "<path_to_library_jar>:<path_to_org.json.jar>" AppChatExample

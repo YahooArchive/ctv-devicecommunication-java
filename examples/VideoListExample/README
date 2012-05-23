@@ -1,0 +1,7 @@
+This example opens a connection, queries the VideoListExample widget for a list of videos, then prompts the user to enter a URL.
+
+Java:
+compiling:
+javac -cp <path_to_library_jar> VideoListExample
+running:
+java -cp "<path_to_library_jar>:<path_to_org.json.jar>" VideoListExample
