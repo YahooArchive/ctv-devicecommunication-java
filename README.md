@@ -1,4 +1,8 @@
 # Overview
+Yahoo! Connected TV’s Device Communication model enables new and exciting TV-viewing experiences driven by the sophisticated controls available on today’s tablets, laptops, and mobile phones. A new generation of TV App capabilities is now available to consumers, including gesture-based, multi-display, and multi-user features for intensive gaming, multimedia, and social applications. 
+
+This Device Communication platform supports two-way message-passing between Internet-enabled devices and connected TVs running the Yahoo! Connected TV Platform. Keyboard, navigation, and app-specific messages can be communicated through a new protocol over a local network. 
+
 The Yahoo! Connected TV Device Communication Java Library uses several 3rd party open source libraries and tools. This file summarizes the tools used, their purpose, and the licenses under which they are released. This file also explains how to build the jar file and generate Javadoc documentation.
 
 # Build
