@@ -53,6 +53,12 @@ public class AppChatExample {
 	public static String HOST = "localhost";
 	public static int PORT = 8099;
 	public static String APP_NAME = "AppChatExample";
+
+	/*** !!!!
+	 * WARNING: These are demo keys and will only work on the simulator (ADK). For more informations about generating
+	 * production keys, see http://developer.yahoo.com/connectedtv
+	 *** !!!!
+	 */
 	public final static String APP_ID = "0xeTgF3c";
 	public final static String CONSUMER_KEY = "dj0yJmk9T1Y0MmVIWWEzWVc3JmQ9WVdrOU1IaGxWR2RHTTJNbWNHbzlNVEUzTkRFM09ERTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yNA--";
 	public final static String SECRET = "1b8f0feb4d8d468676293caa769e19958bf36843";
