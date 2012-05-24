@@ -43,7 +43,7 @@ Except as specifically stated below, the 3rd party software packages are not dis
 The Yahoo! Connected TV Device Communication Java Library is licensed under the following BSD License.
 
 Software License Agreement (BSD License)
-Copyright c 2011 Yahoo! Inc. All rights reserved.
+Copyright c 2012 Yahoo! Inc. All rights reserved.
 
 Redistribution and use of this software in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
