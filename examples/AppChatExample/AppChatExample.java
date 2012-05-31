@@ -63,7 +63,7 @@ public class AppChatExample {
 	public final static String CONSUMER_KEY = "dj0yJmk9T1Y0MmVIWWEzWVc3JmQ9WVdrOU1IaGxWR2RHTTJNbWNHbzlNVEUzTkRFM09ERTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yNA--";
 	public final static String SECRET = "1b8f0feb4d8d468676293caa769e19958bf36843";
 
-	public static String WIDGET_ID = "com.yahoo.connectedtv.examples.appchat.widget";
+	public static String WIDGET_ID = "com.yahoo.connectedtv.examples.appchat";
 
 	public Connection conn;
 
