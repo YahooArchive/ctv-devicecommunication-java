@@ -23,7 +23,7 @@ You can find the Device Communication Tools repository at https://github.com/yah
 
 You can find Device Communication documentation at https://developer.yahoo.com/connectedtv/devicecommunication 
 
-You can find more information about Yahoo Connected TV at http://smarttv.yahoo.com and more developer documentation at https://developer.yahoo.com/connectedtv 
+You can find more information about Yahoo Connected TV at https://smarttv.yahoo.com and more developer documentation at https://developer.yahoo.com/connectedtv 
 
 # Libraries
 Except as specifically stated below, the 3rd party software packages are not distributed as part of this project, but instead are separately downloaded from their respective provider and built on the developer's machine prior to building the library.
